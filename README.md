@@ -9,3 +9,5 @@ A simple Todo List web application built with HTML, CSS, and JavaScript. It allo
 - Add, Edit, and Delete tasks
 - Local storage to persist tasks
 - Responsive design for mobile devices
+  
+watch it here :-  https://divek31.github.io/-Todo-List-/
