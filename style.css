@@ -14,7 +14,6 @@ body {
     background-color: #1e1e2f;
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
-    transition: all 0.3s ease;
 }
 
 /* Theme Switch */
@@ -85,11 +84,32 @@ input[type="checkbox"]:checked + .switch-label .switch-ball {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 #add-task:hover {
     background-color: #3f51b5;
+}
+
+/* Filter Buttons */
+.filter-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background-color: #4e4e6a;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 4px;
+}
+
+.filter-btn.active {
+    background-color: #5c6bc0;
 }
 
 /* Tasks */
@@ -105,24 +125,25 @@ input[type="checkbox"]:checked + .switch-label .switch-ball {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.4s ease forwards;
-    transition: background-color 0.3s ease;
+    align-items: flex-start;
+    flex-direction: row;
 }
 
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+#task-list li div {
+    display: flex;
+    flex-direction: column;
+}
+
+.timestamp {
+    font-size: 0.75rem;
+    color: #aaa;
+    margin-top: 4px;
+    display: block;
 }
 
 .completed {
     text-decoration: line-through;
     opacity: 0.6;
-    transition: opacity 0.3s, text-decoration 0.3s;
 }
 
 button.delete {
@@ -132,7 +153,6 @@ button.delete {
     padding: 5px 10px;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
 button.delete:hover {
