@@ -1,13 +1,23 @@
-# -Todo-List-
-# Todo List App with Smooth Animations and Theme Toggle
+# ✅ Todo List App
 
-A simple Todo List web application built with HTML, CSS, and JavaScript. It allows users to add, edit, and delete tasks while providing a smooth user experience with theme toggle, animations, and local storage for persistent data.
+A simple and clean Todo List app to manage your daily tasks. Built using HTML, CSS, and JavaScript.
 
-## Features
+## 🌟 Features
+- Add and delete tasks
+- Mark tasks as complete/incomplete
+- Filter tasks (All / Completed / Incomplete)
 - Dark/Light theme toggle
-- Smooth animations and transitions
-- Add, Edit, and Delete tasks
-- Local storage to persist tasks
-- Responsive design for mobile devices
-  
-watch it here :-  https://divek31.github.io/-Todo-List-/
+- Stores tasks in local storage
+
+## 🚀 How to Use
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start adding your tasks!
+
+## 🛠️ Tech Used
+- HTML
+- CSS
+- JavaScript
+
+  🔗 **Live Demo:**  
+[Click here to use the app](https://divek31.github.io/-Todo-List-/)
