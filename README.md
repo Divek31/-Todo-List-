@@ -2,6 +2,9 @@
 
 A simple and clean Todo List app to manage your daily tasks. Built using HTML, CSS, and JavaScript.
 
+🔗 **Live Demo:**  
+Check here how it works:-https://divek31.github.io/-Todo-List-/
+
 ## 🌟 Features
 - Add and delete tasks
 - Mark tasks as complete/incomplete
@@ -18,6 +21,3 @@ A simple and clean Todo List app to manage your daily tasks. Built using HTML, C
 - HTML
 - CSS
 - JavaScript
-
-  🔗 **Live Demo:**  
-[Click here to use the app](https://divek31.github.io/-Todo-List-/)
